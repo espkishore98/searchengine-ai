@@ -1,0 +1,24 @@
+ dependency injection and reference links and its url is : https://developer.android.com/training/dependency-injection#:~:text=dependency%20injection%20works.-,What%20is%20dependency%20injection%3F,the%20Engine%20class%20to%20run. and  content in the url is The text provides an overview of dependency injection (DI) and its benefits, including reusability, decoupling, ease of refactoring, and ease of testing. It also discusses various approaches to implementing DI in Android applications, including manual implementation, the service locator pattern, and Hilt.
+
+Key points from the text:
+
+1. **Dependency Injection (DI)**: A design pattern that allows components to be loosely coupled and make it easier to test and maintain code.
+2. **Benefits of DI**: Reusability, decoupling, ease of refactoring, and ease of testing.
+3. **Manual Implementation**: Implementing DI manually in an Android application by creating a container class that manages dependencies.
+4. **Service Locator Pattern**: A pattern where a service locator class creates and stores dependencies, which are then provided on demand.
+5. **Hilt**: Jetpack's recommended library for dependency injection in Android applications, which provides containers for every Android class and manages lifecycles automatically.
+
+Best practices from the text:
+
+1. **Use Hilt**: Hilt is Jetpack's recommended library for dependency injection in Android applications.
+2. **Implement DI manually**: Implementing DI manually can help understand the benefits of DI and make it easier to test and maintain code.
+3. **Use a service locator pattern with caution**: The service locator pattern can make code harder to test and maintain, so use it with caution.
+
+To implement dependency injection in an Android application, follow these steps:
+
+1. Create a container class that manages dependencies using a DI framework like Hilt or Dagger.
+2. Register components and their dependencies in the container class.
+3. Use the container class to inject dependencies into components.
+4. Test components by passing different implementations of dependencies.
+
+By following these best practices and implementing dependency injection in your Android application, you can make your code more reusable, decoupled, and easier to maintain.
